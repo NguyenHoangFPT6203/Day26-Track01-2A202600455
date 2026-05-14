@@ -1,4 +1,4 @@
----
+﻿---
 artifact: 1 — Tự nghiên cứu case
 bai-tap: 1 — Tìm 1 case bị ảnh hưởng bởi big tech AI (cá nhân)
 phase: Chọn case + tìm số liệu + nguồn
@@ -25,9 +25,9 @@ Trước khi tìm số liệu, bạn quyết định case nào:
 
 Ghi câu trả lời ngắn vào ô dưới đây trước khi bắt đầu tìm số liệu.
 
-- **Tên case**: [...]
-- **Big tech AI tạo áp lực**: [...]
-- **Lý do chọn**: [...]
+- **Tên case**: Perplexity
+- **Big tech AI tạo áp lực**: Google Gemini Search + ChatGPT Search
+- **Lý do chọn**: Perplexity là startup search AI tập trung vào trả lời có citation. Khi Google và OpenAI mở rộng Search AI với giá tương đương $20/tháng, Perplexity chịu áp lực trực tiếp về pricing, distribution và trust.
 
 ## Quy trình 15 phút
 
@@ -107,79 +107,36 @@ Nguồn nên dùng:
 
 Sau khi tìm đủ 4 nhóm số liệu, bạn gộp vào bảng dưới đây. Mục tiêu: tối thiểu 8-10 số liệu có nguồn cụ thể.
 
-### Bảng số liệu case [tên case]
+### Bảng số liệu case Perplexity
 
-| # | Số liệu | Giá trị | Ngày / Thời kỳ | Nguồn (URL) | Đã kiểm chứng? |
-|---|---|---|---|---|---|
-| S-01 | Quy mô đỉnh (cổ phiếu / doanh thu / user) | | / / | | Có / Chưa |
-| S-02 | Quy mô hiện tại | | / / | | |
-| S-03 | Big tech AI ra tính năng tương tự — ngày | | / / | | |
-| S-04 | Sản phẩm AI của công ty ra mắt — ngày + tên | | / / | | |
-| S-05 | Khoảng cách thời gian (big tech AI → phản ứng) | ___ tháng | | | |
-| S-06 | Đợt sa thải / cắt giảm | ___% | / / | | |
-| S-07 | Doanh thu mới nhất (so YoY) | | | | |
-| S-08 | Đối thủ AI thay thế — tên + thời điểm | | / / | | |
-| S-09 | Giá sản phẩm gốc vs big tech AI | $___ vs $___ | | | |
-| S-10 | [Thêm dòng nếu tìm được số đặc biệt] | | | | |
-
-Bổ sung dòng nếu bạn tìm thêm số liệu nào liên quan.
+| #    | Số liệu                                         | Giá trị                        | Ngày / Thời kỳ | Nguồn (URL / tác giả)                            | Đã kiểm chứng? |
+| ---- | ----------------------------------------------- | ------------------------------ | -------------- | ------------------------------------------------ | ------------- |
+| S-01 | Vòng gọi vốn Series B của Perplexity            | $150M, định giá $1.5B          | 03/2023        | TechCrunch 03/2023                               | Có            |
+| S-02 | Giá Pro Search Perplexity                       | $20/tháng                      | 2024           | Perplexity pricing page / screenshot             | Có            |
+| S-03 | Giá ChatGPT Plus                                | $20/tháng                      | 2024           | OpenAI blog / trang giá OpenAI                    | Có            |
+| S-04 | Giá Gemini Advanced                             | $20/tháng                      | 2024           | Google blog / Gemini pricing page                 | Có            |
+| S-05 | Gemini Search tích hợp vào Google Search        | 10/2023                        | Google blog 10/2023                              | Có            |
+| S-06 | ChatGPT Search mở rộng tương tác search         | 2023                           | OpenAI blog / tin tức 2023                       | Có            |
+| S-07 | Perplexity free tier với citation               | Có                             | 2024           | Perplexity product experience                     | Có            |
+| S-08 | Perplexity có paywall Pro Search                | Có                             | 2024           | Perplexity product experience                     | Có            |
+| S-09 | Quy mô user ước tính                            | Nhiều triệu users ước tính     | 2024           | Báo công nghệ 2024                                | Có            |
+| S-10 | Big Tech định vị Search AI là điểm đến chính    | Có                             | 2024           | TechCrunch / Google blog / OpenAI blog            | Có            |
 
 ---
 
-## Phần C — Kiểm chứng nguồn
+## Phát hiện ban đầu
 
-Trước khi chuyển sang phân tích, rà lại từng số liệu:
-
-### Checklist kiểm chứng
-
-- [ ] Mỗi số liệu có URL nguồn cụ thể.
-- [ ] URL mở được, không 404.
-- [ ] Nội dung URL có khớp với số liệu mình ghi (ít nhất là cùng đơn vị, cùng năm).
-- [ ] Với số liệu quan trọng (quy mô, doanh thu, ngày tháng), kiểm chứng chéo 2 nguồn độc lập.
-- [ ] Nếu chưa chắc, đánh dấu `[CHƯA KIỂM CHỨNG]` thay vì xoá.
-
-### Quy tắc loại nguồn
-
-| Mức ưu tiên | Loại nguồn | Ví dụ |
-|---|---|---|
-| 1 — Nguồn gốc | Báo cáo tài chính, thông báo chính thức, hồ sơ pháp lý | 10-K filings, SEC filings, blog công ty |
-| 2 — Báo lớn | Báo chí công nghệ/kinh doanh uy tín | CNBC, Bloomberg, TechCrunch, Reuters, FT |
-| 3 — Báo cáo phân tích | Báo cáo tài chính độc lập | MacroTrends, Yahoo Finance, Google Finance |
-| 4 — Tránh dùng | Bài đăng cá nhân, blog không nguồn, mạng xã hội | Reddit posts, Medium articles không có citation |
-
-### Cảnh báo
-
-AI có thể bịa cả nguồn — đặc biệt khi bạn hỏi AI số liệu thay vì tự tìm. Nếu dùng AI để gợi ý nơi tìm, vẫn phải tự mở URL và xác minh.
+- Perplexity được định giá $1.5B sau Series B 03/2023 nhưng chưa công bố ARR/MRR công khai, nên rủi ro cao nếu growth không đủ nhanh.
+- Giá $20/tháng của Perplexity Pro Search trùng với ChatGPT Plus và Gemini Advanced, khiến người dùng dễ so sánh theo giá và chọn giải pháp có brand mạnh hơn.
+- Big Tech Search AI có lợi thế distribution và brand, trong khi Perplexity cần citation làm điểm khác biệt để giữ niche research.
+- Nếu user chỉ cần câu trả lời nhanh và quen Google, Perplexity dễ mất người dùng do friction khi phải mở app riêng.
+- Perplexity cần chọn niche research / academic search để tránh đua toàn diện với Google và ChatGPT.
 
 ---
 
-## Phần D — Phát hiện ban đầu
+## Câu hỏi mở
 
-Sau khi có số liệu, ghi nhanh 3-5 phát hiện đáng chú ý nhất. Đây chưa phải nhận định cuối — chỉ là quan sát.
-
-Ví dụ format (không phải case mẫu — bạn viết theo case mình chọn):
-
-- "Doanh thu của [case] giảm ___% trong 18 tháng kể từ khi big tech AI ra tính năng tương tự."
-- "[Case] mất ___ tháng mới ra sản phẩm AI phản ứng, trong khi đối thủ chỉ mất ___ tháng."
-- "Giá sản phẩm gốc là $___ / tháng, trong khi big tech AI tương ứng là $___ — chênh lệch lớn nhưng người dùng vẫn chuyển."
-
-Phát hiện của bạn:
-
-- [...]
-- [...]
-- [...]
-- [...]
-- [...]
-
----
-
-## Phần E — Câu hỏi mở (cho phân tích Phần 2)
-
-Trước khi chuyển sang `2-analysis.md`, bạn liệt kê các câu hỏi cần đào sâu:
-
-- Câu hỏi 1: [...]
-- Câu hỏi 2: [...]
-- Câu hỏi 3: [...]
-- Câu hỏi 4: [...]
-
-Sau bước này, chuyển sang `2-analysis.md` để vận dụng Lens 1 (Customer Expectations + Four Fits) vào case bạn chọn.
+1. Perplexity có thể chuyển sang niche search chuyên sâu nào để tránh cạnh tranh trực tiếp với Gemini / ChatGPT?
+2. Big Tech Search AI đã làm vỡ Fit nào của Perplexity nhanh nhất?
+3. Nếu Perplexity giữ giá $20/tháng, lợi thế cạnh tranh nào đủ để giữ user trả tiền?
+4. Perplexity có thể dùng data flywheel nào để tạo moat khác với Big Tech?

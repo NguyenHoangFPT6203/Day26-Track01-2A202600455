@@ -440,12 +440,12 @@ Ngành này tập trung vào sản phẩm AI hỗ trợ tìm hiểu sâu một c
 
 ### Bảng so sánh ngành — chọn ngành nào?
 
-| Ngành | Độ dễ chọn sản phẩm | Có gói miễn phí | Khó định lượng kết quả | Liên hệ case lecture |
-|---|---|---|---|---|
-| [A] Tìm kiếm | Dễ | Có (Perplexity, Gemini, Tavily) | Trung bình | Chegg case, Shift 1, Shift 6 |
-| [B] Lập trình | Dễ | Có (Cursor, Copilot sinh viên) | Dễ (test code chạy hay không) | Stack Overflow, Cursor |
-| [C] Viết lách | Trung bình | Có (Notion AI free, Jasper trial) | Khó (chủ quan) | Jasper case, Niche Down |
-| [D] Nghiên cứu | Dễ | Có (NotebookLM, Elicit, Consensus) | Trung bình | NotebookLM, Deep Research, Shift 7 |
+| Ngành          | Độ dễ chọn sản phẩm | Có gói miễn phí                    | Khó định lượng kết quả        | Liên hệ case lecture               |
+| -------------- | ------------------- | ---------------------------------- | ----------------------------- | ---------------------------------- |
+| [A] Tìm kiếm   | Dễ                  | Có (Perplexity, Gemini, Tavily)    | Trung bình                    | Chegg case, Shift 1, Shift 6       |
+| [B] Lập trình  | Dễ                  | Có (Cursor, Copilot sinh viên)     | Dễ (test code chạy hay không) | Stack Overflow, Cursor             |
+| [C] Viết lách  | Trung bình          | Có (Notion AI free, Jasper trial)  | Khó (chủ quan)                | Jasper case, Niche Down            |
+| [D] Nghiên cứu | Dễ                  | Có (NotebookLM, Elicit, Consensus) | Trung bình                    | NotebookLM, Deep Research, Shift 7 |
 
 Gợi ý:
 
@@ -458,12 +458,12 @@ Gợi ý:
 
 ### Kết hợp với case lecture (4 Lens × 4 ngành)
 
-| Ngành | Lens 1 liên hệ | Lens 2 liên hệ | Lens 3 liên hệ | Lens 4 liên hệ |
-|---|---|---|---|---|
-| [A] Tìm kiếm | Chegg case (search → do for me) | Perplexity vs ChatGPT vs Google | Giao diện chat vs giao diện so sánh | Google moat (distribution) vs Perplexity moat |
-| [B] Lập trình | Stack Overflow case | Cursor (proprietary funnel) vs Copilot | Tab autocomplete vs Cmd+K vs Composer | Cursor "rented land" trên VS Code + OpenAI |
-| [C] Viết lách | "AI viết cho tôi" expectation | Jasper case (không có niche) | Chat box vs inline edit vs template | Notion network effect vs Jasper general |
-| [D] Nghiên cứu | "Deep research" expectation | NotebookLM (proprietary RAG) vs Elicit (academic niche) | Source-grounded UI (NotebookLM) vs cột tổng hợp Elicit | NotebookLM (Google distribution) vs Consensus (peer-reviewed data moat) |
+| Ngành          | Lens 1 liên hệ                  | Lens 2 liên hệ                                          | Lens 3 liên hệ                                         | Lens 4 liên hệ                                                          |
+| -------------- | ------------------------------- | ------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------- |
+| [A] Tìm kiếm   | Chegg case (search → do for me) | Perplexity vs ChatGPT vs Google                         | Giao diện chat vs giao diện so sánh                    | Google moat (distribution) vs Perplexity moat                           |
+| [B] Lập trình  | Stack Overflow case             | Cursor (proprietary funnel) vs Copilot                  | Tab autocomplete vs Cmd+K vs Composer                  | Cursor "rented land" trên VS Code + OpenAI                              |
+| [C] Viết lách  | "AI viết cho tôi" expectation   | Jasper case (không có niche)                            | Chat box vs inline edit vs template                    | Notion network effect vs Jasper general                                 |
+| [D] Nghiên cứu | "Deep research" expectation     | NotebookLM (proprietary RAG) vs Elicit (academic niche) | Source-grounded UI (NotebookLM) vs cột tổng hợp Elicit | NotebookLM (Google distribution) vs Consensus (peer-reviewed data moat) |
 
 ---
 
@@ -480,29 +480,29 @@ Gợi ý:
 
 ## Tài liệu trong thư mục này
 
-| File / Thư mục | Dùng để làm gì |
-|---|---|
-| `worksheet/01-bigtech-disruption/` | Lab 1 cá nhân — 3 files (1-research, 2-analysis, 3-FINAL) |
+| File / Thư mục                     | Dùng để làm gì                                             |
+| ---------------------------------- | ---------------------------------------------------------- |
+| `worksheet/01-bigtech-disruption/` | Lab 1 cá nhân — 3 files (1-research, 2-analysis, 3-FINAL)  |
 | `worksheet/02-product-comparison/` | Lab 2 nhóm — slide deck + group-members + freestyle folder |
-| `worksheet/03-takenotes.md` | Lab 3 cá nhân — quan sát + bài học |
-| `prompts/` | 10 prompt tham khảo cho từng bước (xem bảng mapping dưới) |
+| `worksheet/03-takenotes.md`        | Lab 3 cá nhân — quan sát + bài học                         |
+| `prompts/`                         | 10 prompt tham khảo cho từng bước (xem bảng mapping dưới)  |
 
 ---
 
 ## Bảng dùng prompt tham khảo
 
-| Prompt tham khảo | Dùng khi nào | Lưu kết quả vào |
-|---|---|---|
-| `prompts/01-research-case.md` | Tự nghiên cứu case bạn chọn (Lab 1 Phase 1) | `01-bigtech-disruption/1-research.md` |
-| `prompts/02-four-fits-analysis.md` | Vận dụng Lens 1 vào case bạn chọn (Lab 1 Phase 2) | `01-bigtech-disruption/2-analysis.md` |
-| `prompts/03-niche-evaluation.md` | Đánh giá Lens 2 — Niche Down của 1 sản phẩm | Slide deck S5 (Lens 2) |
-| `prompts/04-ai-feature-map.md` | Áp dụng Lens 3 — AI Feature Map | Slide deck S5 (Lens 3) |
-| `prompts/05-ux-friction-audit.md` | Audit UX của 1 sản phẩm | Slide deck S2 + S5 (UX) |
-| `prompts/06-moat-check.md` | Kiểm tra Lens 4 — Defensibility + 5 loại moat | Slide deck S5.4 (Moat) + S5.5 (Data flywheel) |
-| `prompts/07-product-comparison.md` | So sánh 2 sản phẩm có cấu trúc | Slide deck S1 + S2 |
-| `prompts/08-analysis-report.md` | Dựng 5 mục slide deck Lab 2 (S5 mở rộng 8 mục con) | Slide deck (toàn bộ) |
-| `prompts/09-spark-loop-system.md` | Phân tích Spark → Loop → System | Slide deck S5.7 |
-| `prompts/10-product-judgment.md` | Tổng hợp verdict cuối + liên hệ Lab 1 | Slide deck S5.1 + S5.6 + S5.8 |
+| Prompt tham khảo                   | Dùng khi nào                                       | Lưu kết quả vào                               |
+| ---------------------------------- | -------------------------------------------------- | --------------------------------------------- |
+| `prompts/01-research-case.md`      | Tự nghiên cứu case bạn chọn (Lab 1 Phase 1)        | `01-bigtech-disruption/1-research.md`         |
+| `prompts/02-four-fits-analysis.md` | Vận dụng Lens 1 vào case bạn chọn (Lab 1 Phase 2)  | `01-bigtech-disruption/2-analysis.md`         |
+| `prompts/03-niche-evaluation.md`   | Đánh giá Lens 2 — Niche Down của 1 sản phẩm        | Slide deck S5 (Lens 2)                        |
+| `prompts/04-ai-feature-map.md`     | Áp dụng Lens 3 — AI Feature Map                    | Slide deck S5 (Lens 3)                        |
+| `prompts/05-ux-friction-audit.md`  | Audit UX của 1 sản phẩm                            | Slide deck S2 + S5 (UX)                       |
+| `prompts/06-moat-check.md`         | Kiểm tra Lens 4 — Defensibility + 5 loại moat      | Slide deck S5.4 (Moat) + S5.5 (Data flywheel) |
+| `prompts/07-product-comparison.md` | So sánh 2 sản phẩm có cấu trúc                     | Slide deck S1 + S2                            |
+| `prompts/08-analysis-report.md`    | Dựng 5 mục slide deck Lab 2 (S5 mở rộng 8 mục con) | Slide deck (toàn bộ)                          |
+| `prompts/09-spark-loop-system.md`  | Phân tích Spark → Loop → System                    | Slide deck S5.7                               |
+| `prompts/10-product-judgment.md`   | Tổng hợp verdict cuối + liên hệ Lab 1              | Slide deck S5.1 + S5.6 + S5.8                 |
 
 ---
 
@@ -571,24 +571,24 @@ AI chỉ hỗ trợ dựng bản nháp. Học viên vẫn chịu trách nhiệm 
 
 ## Lỗi hay mắc
 
-| Đừng làm | Nên làm |
-|---|---|
-| Nộp chung 1 repo cho 2 học viên trong nhóm | Mỗi học viên 1 repo riêng. Lab 2 nhóm cùng làm, sau đó copy về 2 repo cá nhân |
-| Bỏ qua `group-members.md` | Phải ghi 2 thành viên + nhiệm vụ + ngành ngay khi nhóm chốt |
-| Nộp mỗi file FINAL Lab 1 | Giữ cả 2 file trung gian (1-research, 2-analysis) |
-| AI tự tạo số liệu case | Tự click URL nguồn để verify mỗi số |
-| Phân tích 1 chiều "big tech AI giết case" | Cân nhắc counter-narrative (case đã có vấn đề trước AI?) |
-| Tin AI cite nguồn mà không kiểm tra | Mở URL, đảm bảo accessible + content khớp |
-| Chỉ 2 ảnh cho Lab 2 | Tối thiểu 6 ảnh — entry, input, output cho cả 2 sản phẩm |
-| Đặt tên ảnh tuỳ ý (vd: `Screenshot 2026-05-14 12.34.png`) | Theo quy tắc `product-A-1-entry.png` |
-| S5 bỏ Niche Down hoặc bỏ Spark→Loop→System | Phải có 5.1 Verdict + 5.6 Niche + 5.7 Spark→Loop→System + 5.8 Liên hệ Lab 1 |
+| Đừng làm                                                          | Nên làm                                                                                                   |
+| ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Nộp chung 1 repo cho 2 học viên trong nhóm                        | Mỗi học viên 1 repo riêng. Lab 2 nhóm cùng làm, sau đó copy về 2 repo cá nhân                             |
+| Bỏ qua `group-members.md`                                         | Phải ghi 2 thành viên + nhiệm vụ + ngành ngay khi nhóm chốt                                               |
+| Nộp mỗi file FINAL Lab 1                                          | Giữ cả 2 file trung gian (1-research, 2-analysis)                                                         |
+| AI tự tạo số liệu case                                            | Tự click URL nguồn để verify mỗi số                                                                       |
+| Phân tích 1 chiều "big tech AI giết case"                         | Cân nhắc counter-narrative (case đã có vấn đề trước AI?)                                                  |
+| Tin AI cite nguồn mà không kiểm tra                               | Mở URL, đảm bảo accessible + content khớp                                                                 |
+| Chỉ 2 ảnh cho Lab 2                                               | Tối thiểu 6 ảnh — entry, input, output cho cả 2 sản phẩm                                                  |
+| Đặt tên ảnh tuỳ ý (vd: `Screenshot 2026-05-14 12.34.png`)         | Theo quy tắc `product-A-1-entry.png`                                                                      |
+| S5 bỏ Niche Down hoặc bỏ Spark→Loop→System                        | Phải có 5.1 Verdict + 5.6 Niche + 5.7 Spark→Loop→System + 5.8 Liên hệ Lab 1                               |
 | S5 bỏ trắng 5.4 (Moat) hoặc 5.5 (Data flywheel) cho cả 2 sản phẩm | Phải có phân tích moat 5 loại + data flywheel; nếu không có số liệu thì ghi rõ "không có nguồn công khai" |
-| Verdict "A tốt hơn" không lý do | Lý do chính + phụ + counter-evidence + per persona |
-| Bỏ liên hệ với Lab 1 case | S5.8 phải nối với Lab 1 (rủi ro disruption-style) |
-| Demo chỉ để nhìn đẹp | Mỗi nhận định phải có ≥ 1 ảnh tham chiếu |
-| Để kho riêng tư | Kho GitHub phải công khai |
-| Đặt tên kho `Day-26-final` | Đúng cú pháp `Day26-MãHọcViên` (vd: `Day26-A20-00045`) |
-| Bỏ Lab 3 take notes | Lab 3 là phần cá nhân bắt buộc — nghe ≥ 2 nhóm khác rồi viết |
+| Verdict "A tốt hơn" không lý do                                   | Lý do chính + phụ + counter-evidence + per persona                                                        |
+| Bỏ liên hệ với Lab 1 case                                         | S5.8 phải nối với Lab 1 (rủi ro disruption-style)                                                         |
+| Demo chỉ để nhìn đẹp                                              | Mỗi nhận định phải có ≥ 1 ảnh tham chiếu                                                                  |
+| Để kho riêng tư                                                   | Kho GitHub phải công khai                                                                                 |
+| Đặt tên kho `Day-26-final`                                        | Đúng cú pháp `Day26-MãHọcViên` (vd: `Day26-A20-00045`)                                                    |
+| Bỏ Lab 3 take notes                                               | Lab 3 là phần cá nhân bắt buộc — nghe ≥ 2 nhóm khác rồi viết                                              |
 
 ---
 

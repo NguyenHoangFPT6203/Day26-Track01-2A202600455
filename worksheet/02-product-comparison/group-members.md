@@ -15,29 +15,29 @@ File này khai báo 2 thành viên trong nhóm + phân công thực hiện.
 
 ## Danh sách thành viên
 
-| # | Mã học viên | Họ tên đầy đủ | Phân công chính |
-|---|---|---|---|
-| 1 | A20-XXXXX | [...] | [...] |
-| 2 | A20-XXXXX | [...] | [...] |
+| #   | Mã học viên | Họ tên đầy đủ     | Phân công chính                                                                 |
+| --- | ----------- | ----------------- | ------------------------------------------------------------------------------- |
+| 1   | 2A202600381 | Lê Quang Minh     | Chốt kịch bản test, thử nghiệm Google Gemini Search, viết S4-S5, tổng hợp slide |
+| 2   | 2A202600455 | Nguyễn Việt Hoàng | Thực hiện test Perplexity, chụp screenshot sản phẩm A, viết S1-S3 và verdict    |
 
 ---
 
 ## Nhiệm vụ thử nghiệm chung
 
-[Mô tả 1-2 câu nhiệm vụ chung mà cả 2 thành viên cùng test trên 2 sản phẩm. Ví dụ: "Viết bản tóm tắt 200 từ về tác động của AI lên ngành ed-tech, có dẫn nguồn."]
+**Ngành chọn**: A — Tìm kiếm
 
-**Ngành chọn**: [A — Tìm kiếm / B — Lập trình / C — Viết lách / D — Nghiên cứu]
+**Sản phẩm A**: Perplexity — https://www.perplexity.ai
 
-**Sản phẩm A**: [tên + URL]
+**Sản phẩm B**: Google Gemini Search — https://gemini.google.com/search
 
-**Sản phẩm B**: [tên + URL]
+**Nhiệm vụ chung**: "Tìm sự kiện công nghệ ở TP.HCM trong 2 tuần tới và liệt kê cụ thể 3 sự kiện kèm link nguồn."
 
 ---
 
 ## Phân chia screenshot
 
-- Sản phẩm A → [Mã học viên nào phụ trách chụp]
-- Sản phẩm B → [Mã học viên nào phụ trách chụp]
+- Sản phẩm A → Nguyễn Việt Hoàng
+- Sản phẩm B → Lê Quang Minh
 
 ---
 
@@ -46,6 +46,15 @@ File này khai báo 2 thành viên trong nhóm + phân công thực hiện.
 - Mỗi thành viên copy folder `02-product-comparison/` (đã hoàn thiện) vào repo cá nhân của mình.
 - Slide deck `analysis-report.pdf` và `analysis-report-link.md` (nếu có) là sản phẩm chung — 2 thành viên cùng tên trong credits của slide deck.
 - File `group-members.md` này phải giống nhau ở cả 2 repo cá nhân (cùng nội dung, cùng 2 mã học viên).
+
+---
+
+## Ghi chú quan trọng
+
+- Câu prompt phải copy giống y hệt sang cả 2 sản phẩm.
+- Nếu sản phẩm B yêu cầu Google account, dùng cùng trình duyệt và ghi rõ trạng thái đăng nhập.
+- Mỗi sản phẩm phải có ít nhất 3 ảnh: entry, prompt input, output.
+- Nếu không có ảnh chụp thật, ghi rõ "chưa chụp" để tránh bỏ sót.
 
 ---
 
