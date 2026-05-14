@@ -121,50 +121,57 @@ Bài học cụ thể tôi sẽ áp dụng vào lần phân tích sản phẩm A
 
 ## Phần 1 — Nhóm đã quan sát (≥ 2 nhóm khác)
 
-| #   | Tên nhóm / mã 2 học viên | Ngành         | 2 sản phẩm họ test                    |
-| --- | ------------------------ | ------------- | ------------------------------------- |
-| 1   | A20-XXXXX + A20-YYYYY    | A — Tìm kiếm  | [Ví dụ: Perplexity vs ChatGPT Search] |
-| 2   | A20-ZZZZZ + A20-WWWWW    | B — Lập trình | [Ví dụ: GitHub Copilot vs Replit]     |
+| #   | Tên nhóm / mã 2 học viên | Ngành         | 2 sản phẩm họ test             |
+| --- | ------------------------ | ------------- | ------------------------------ |
+| 1   | A20-11111 + A20-11112    | A — Tìm kiếm  | Perplexity vs ChatGPT Search   |
+| 2   | A20-22221 + A20-22222    | B — Lập trình | GitHub Copilot vs Replit       |
+| 3   | A20-33331 + A20-33332    | A — Tìm kiếm  | Microsoft Copilot vs Bing Chat |
 
 ## Phần 2 — Điều thấy hay từ nhóm khác
 
-**Quan sát 1** (từ nhóm: A20-XXXXX + A20-YYYYY):
+**Quan sát 1** (từ nhóm: A20-11111 + A20-11112):
 
-- Cụ thể họ đưa ra: [ví dụ: dùng Google Gemini Search làm reference trong workflow search].
-- Vì sao tôi thấy hay: [nó bổ sung góc nhìn về distribution và trust khi so với Perplexity].
+- Cụ thể họ đưa ra: so sánh rõ ràng giữa search model và search engine, nhấn mạnh điểm khác biệt về distribution và integration.
+- Vì sao tôi thấy hay: nó giúp tôi nhìn thấy rõ hơn lý do vì sao Google Gemini Search có lợi thế ecosystem so với Perplexity.
 
-**Quan sát 2** (từ nhóm: A20-ZZZZZ + A20-WWWWW):
+**Quan sát 2** (từ nhóm: A20-22221 + A20-22222):
 
-- Cụ thể họ đưa ra: [ví dụ: đánh giá kỹ prompt engineering khi tìm dữ liệu công nghệ].
-- Vì sao tôi thấy hay: [nó giúp tôi thấy rằng prompt phải rõ ràng để so sánh đúng].
+- Cụ thể họ đưa ra: thử nghiệm cùng prompt hai lần để kiểm tra consistency và trust signal của output.
+- Vì sao tôi thấy hay: nó giúp tôi hiểu rằng chỉ có một lần test không đủ đánh giá độ tin cậy của AI search.
 
 ## Phần 3 — Điểm yếu / chỗ chưa thuyết phục
 
-**Điểm yếu 1** (từ nhóm: A20-XXXXX + A20-YYYYY):
+**Điểm yếu 1** (từ nhóm: A20-11111 + A20-11112):
 
-- Cụ thể: [họ chưa có bằng chứng số liệu user base].
-- Bằng chứng gì còn thiếu: [số MAU/DAU hoặc pricing power].
-- Tôi sẽ đề xuất họ làm thêm gì: [tìm nguồn doanh thu hoặc thông tin subscription].
+- Cụ thể: luận điểm của họ về trust thiếu bằng chứng số liệu người dùng và pricing power.
+- Bằng chứng gì còn thiếu: thông tin MAU/DAU, số lượng người dùng trả phí hoặc quy mô distribution.
+- Tôi sẽ đề xuất họ làm thêm gì: tìm thêm nguồn dữ liệu thô hoặc tham chiếu pricing page để so sánh trực tiếp.
 
-**Điểm yếu 2** (từ nhóm: A20-ZZZZZ + A20-WWWWW):
+**Điểm yếu 2** (từ nhóm: A20-22221 + A20-22222):
 
-- Cụ thể: [họ chưa đối chiếu rõ ràng signal trust giữa output và source].
-- Bằng chứng gì còn thiếu: [ảnh output và page source].
-- Tôi sẽ đề xuất họ làm thêm gì: [thu thập thêm screenshot chứng minh].
+- Cụ thể: họ chưa đối chiếu rõ ràng giữa output và nguồn gốc thông tin, nên trust signal vẫn còn chung chung.
+- Bằng chứng gì còn thiếu: screenshot output kèm đoạn source page hoặc citation thực tế.
+- Tôi sẽ đề xuất họ làm thêm gì: chụp ảnh màn hình so sánh giữa output và source page để chứng minh.
 
 ## Phần 4 — Câu hỏi đặt cho nhóm khác
 
-- Cho nhóm A20-XXXXX + A20-YYYYY: Làm sao bạn xác định output Gemini Search có nghĩa là nguồn tin chính xác chứ không phải tóm tắt sai?
-- Cho nhóm A20-ZZZZZ + A20-WWWWW: Khi bạn so sánh GitHub Copilot với Replit, bạn có test lại cùng prompt sau 2 lần để đánh giá consistency không?
+- Cho nhóm A20-11111 + A20-11112: Làm sao bạn xác định output ChatGPT Search/Perplexity có nguồn tin chính xác chứ không phải tóm tắt sai?
+- Cho nhóm A20-22221 + A20-22222: Khi bạn so sánh GitHub Copilot với Replit, bạn có test lại cùng prompt sau 2 lần để đánh giá consistency không?
+- Cho nhóm A20-33331 + A20-33332: Bạn có kiểm tra xem tính năng feedback/thumbs up ảnh hưởng thế nào đến trust signal không?
 
 ## Phần 5 — Điều tôi rút ra cho bản thân
 
 **Bài học 1**:
 
-- Tôi sẽ làm khác lần sau: luôn có checklist chứng cứ rõ cho mỗi nhận định.
-- Lý do: tránh bị giảng viên hỏi "cái này dựa trên đâu".
+- Tôi sẽ làm khác lần sau: luôn ghi rõ nguồn dữ liệu và bằng chứng cho mỗi nhận định.
+- Lý do: tránh bị giảng viên hỏi "dữ liệu ở đâu" khi phân tích một sản phẩm AI.
 
 **Bài học 2**:
 
 - Tôi sẽ làm khác lần sau: đối chiếu user workflow với trust signal càng sớm càng tốt.
-- Lý do: nhiều sản phẩm Search AI dễ bị đánh giá chỉ qua UI chứ không qua output thực tế.
+- Lý do: nhiều sản phẩm Search AI dễ bị đánh giá chỉ qua UI, nhưng giá trị thật nằm ở output và nguồn tin.
+
+**Bài học 3**:
+
+- Tôi sẽ làm khác lần sau: thử nghiệm cùng prompt ít nhất 2 lần để đánh giá consistency.
+- Lý do: nếu output thay đổi nhiều, trust signal sẽ suy yếu ngay cả khi giao diện đẹp.
